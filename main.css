@@ -6,6 +6,11 @@ h1, h2 {
   font-family:"Arial Black", Gadget, sans-serif;
 }
 
+#titlelink {
+  text-decoration:none;
+  display:inline;
+}
+
 #title {
  color:blue;
  text-shadow:1px 1px 0px black;
