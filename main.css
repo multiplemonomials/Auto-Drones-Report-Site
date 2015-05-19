@@ -1,16 +1,19 @@
 html {
-	background-color: #ccc;
+	background-color: rgb(177, 163, 121);
+}
+
+h1, h2 {
+  font-family:"Arial Black", Gadget, sans-serif;
 }
 
 #title {
  color:blue;
- font-family: "Trebuchet MS", sans-serif;
  text-shadow:1px 1px 0px black;
  display:inline;
 }
 
 h2 {
-  
+  margin-top:5px;
 }
 
 header {
@@ -34,12 +37,12 @@ footer {
 
 article {
   padding: 20px;
-  background-color: #ddd;
+  background-color: #f8f8f8;
   margin:5px;
 }
 
 ul.nav {
- background-color: #f8f8f8;
+ background-color: #ddd;
  float:right;
 }
 
