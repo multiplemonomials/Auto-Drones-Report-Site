@@ -1,5 +1,29 @@
-li, .nav {
- display:inline;
- 
- padding:30px;
+html {
+	background-color: #ccc;
+}
+
+#title {
+ color:blue;
+ font-family: "Trebuchet MS", sans-serif;
+}
+
+ul.nav {
+ background-color: #f8f8f8;
+}
+
+ul.nav>li {
+ display: inline;
+ padding-right:30px; 
+}
+
+ul.nav>li>a {
+  font-family:Arial, sans-serif;
+	color:black;
+	/*font-weight:bold;*/
+	text-decoration:none;
+}
+
+ul.nav>li>a:hover {
+	color:#777;
+	text-decoration:underline;
 }
