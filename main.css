@@ -1,8 +1,8 @@
 html {
-	background-color: rgb(177, 163, 121);
+	background-color: black;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family:"Arial Black", Gadget, sans-serif;
 }
 
@@ -13,7 +13,7 @@ h1, h2 {
 
 #title {
  color:blue;
- text-shadow:1px 1px 0px black;
+ text-shadow:1px 1px 0px white;
  display:inline;
 }
 
@@ -30,7 +30,7 @@ a {
   font-family:Arial, sans-serif;
 }
 
-li {
+ul>li {
  display: inline;
  padding-right:30px; 
 }
@@ -68,7 +68,7 @@ ul.nav>li>a:hover {
 }
 
 ul.bottomnav>li>a {
-	color:black;
+	color:white;
   font-size:60%;
 }
 
