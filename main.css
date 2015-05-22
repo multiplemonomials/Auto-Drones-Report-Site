@@ -87,5 +87,11 @@ ul.bottomnav>li>a:hover {
 .halfpagearticle {
   margin-right: 3%;
   padding:10px;
-  width: 40%;
+  width: 45%;
+}
+
+.imagecaption {
+  font-size: 60%;
+  display:block;
+  float: right;
 }
