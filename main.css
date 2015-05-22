@@ -19,6 +19,10 @@ h1, h2, h3 {
  margin-left: 10px;
 }
 
+h1 {
+  font-size:200%;
+}
+
 h2 {
   margin-top:5px;
   color:rgb(96, 11, 11);
@@ -88,6 +92,16 @@ ul.bottomnav>li>a:hover {
   margin-right: 3%;
   padding:10px;
   width: 45%;
+}
+
+.intextimage-left {
+	margin: 10px 20px 10px 10px;
+	float: left;
+}
+			
+.intextimage-right {
+	margin: 10px 20px 10px 10px;
+	float: right;
 }
 
 .imagecaption {
