@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="60"
+   height="30"
+   viewBox="0 0 60.000001 30.000001"
+   id="svg4436"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="poweredbyelectricity-original.svg">
+  <defs
+     id="defs4438" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="51.464685"
+     inkscape:cy="21.62655"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="746"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4441">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1022.362)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.50000048px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="32.850262"
+       y="1034.3054"
+       id="text4984"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4986"
+         x="32.850266"
+         y="1034.3054"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.50000048px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#d5d5d5;fill-opacity:1">Powered</tspan><tspan
+         sodipodi:role="line"
+         x="32.850262"
+         y="1043.6804"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.50000048px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#d5d5d5;fill-opacity:1"
+         id="tspan4988">By</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#ebebeb;stroke-opacity:1"
+       id="path4994"
+       cx="45.919106"
+       cy="1036.7678"
+       r="12.437504" />
+    <path
+       style="fill:#f9f466;fill-opacity:1;fill-rule:evenodd;stroke:#f7f7f7;stroke-width:0.50000006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 48.234782,1024.7091 -6.187184,11.6167 4.545686,-0.5051 -6.818529,11.6168 0.883883,0.6314 9.47018,-14.1422 -4.545686,-0.1263 5.555839,-8.3337 z"
+       id="path4996"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc" />
+  </g>
+</svg>

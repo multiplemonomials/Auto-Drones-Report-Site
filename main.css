@@ -95,3 +95,7 @@ ul.bottomnav>li>a:hover {
   display:block;
   float: right;
 }
+
+#poweredby {
+  float:right;
+}
