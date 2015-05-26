@@ -113,3 +113,8 @@ ul.bottomnav>li>a:hover {
 #poweredby {
   float:right;
 }
+
+/* used to mark work-in-progress text */
+.highlight {
+	background-color: yellow;
+}
