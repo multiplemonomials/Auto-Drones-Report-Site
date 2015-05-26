@@ -14,7 +14,7 @@ h1, h2, h3 {
 
 #title {
  color:blue;
- text-shadow:1px 1px 0px white;
+ text-shadow:.75px .75px 0px white;
  display:inline;
  margin-left: 10px;
 }
@@ -65,7 +65,7 @@ ul.nav {
 }
 
 ul.bottomnav {
-  background-color: none;
+  background-color: transparent;
 }
 
 ul.nav>li>a {
@@ -107,7 +107,7 @@ ul.bottomnav>li>a:hover {
 .imagecaption {
   font-size: 60%;
   display:block;
-  float: right;
+  text-align: right;
 }
 
 #poweredby {

@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Autonomous Drones: In the Future</title>
+		<link rel="icon" type="image/png" href="favicon.png">
+		
+		<link rel="stylesheet" type="text/css" href="main.css">
+<style>
+      .leftarticle {
+        float:left;
+      }
+      
+      .rightarticle {
+        float:right;
+      }
+      
+      .intextimage {
+        margin: 10px 20px 10px 10px;
+        float: left;
+      }
+    </style>
+
+	</head>
+	
+	<body>
+    <header>
+      <!-- Header version 5 -->
+      <a id="titlelink" href="index.html"><h1 id="title">Autonomous Drones</h1></a>
+
+      <ul class="nav">
+        <li>
+          <a href="index.html">
+            Home
+          </a>
+        </li>
+      
+        <li>
+          <a href="applications.html">
+            Applications
+          </a>
+        </li>
+        
+        <li>
+          <a href="abilities.html">
+            Abilities
+          </a>
+        </li>
+				
+				<li>
+          <a href="construction.html">
+            Construction
+          </a>
+        </li>
+        
+        <li>
+          <a href="regulations.html">
+            Regulations
+          </a>
+        </li>
+      </ul>
+    </header>
+    
+    <div id="content">
+      <article class="leftarticle halfpagearticle">
+        <h2>Hardware</h2>
+        <p>
+					
+				</p>
+      </article>
+
+      <article class="rightarticle halfpagearticle">
+				<h2>Software</h2>
+        <p>
+					The control code needed needed to operate a multi-rotor drone is very complicated, much more so than a regular airplane.
+					First, to keep the drone level, the controller must constantly monitor the gyroscope and make minute adjustments to the speed of each 
+					propeller.  Second, to move horizontally, the propellers on one side of the drone must be sped up, which tilts that side up.  This tilting,
+					as well as the acceleration it causes, must also be fed into the leveling algorithm so that the drone doesn't tip over.  Finally, to
+					turn the drone, the propellers that spin one direction
+					are sped up, and the ones that spin the other way are slowed down.  To further complicate things, all of these functions require complex PID (Proportional Integral
+					Derivative) control algorithms so that they remain as stable as possible.  These algorithms must be carefully tuned for each and every drone using them,
+					and require knowledge of calculus to understand.  So, the nature of multicopters mandates that they have quite complicated control programs.
+        </p> 
+				<div class="intextimage-right">
+						
+					<img src="drone-control-loop.svg" width="600" height="400" alt="Drone Control Loop">
+					<br>
+					<span class="imagecaption">Drone Control Loop <a href="sources.html#dronecontrolloop-imagecredit">(3)</a></span>
+				</div>					
+      </article>
+
+    </div>
+    
+    <footer>
+      <ul class="bottomnav">
+        <li>
+          <a href="about.html">
+            About Us
+          </a>
+        </li>
+        
+        <li>
+          <a href="sources.html">
+            Sources
+          </a>
+        </li>
+      </ul>
+    </footer>
+    
+	</body>
+
+</html>
