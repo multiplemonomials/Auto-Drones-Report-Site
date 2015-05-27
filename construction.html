@@ -68,16 +68,19 @@
     <div id="content">
       <article class="leftarticle halfpagearticle">
         <h2>Hardware</h2>
-				<img id="dronesideview" src="drone-sideview.png" width="624" height="392" alt="Side view of a Quadcopter">
+				<img id="dronesideview" src="images/drone-sideview.png" width="614" height="386" alt="Side view of a Quadcopter">
         <p>
-					<h3> Side view of a Quadcopter </h3>
+					<h3> Anatomy of a Quadcopter </h3>
 					<p>
 						Multi-rotor drones use a mix of standard radio-control plane parts and custom-designed hardware.  The best way to
 						explain it is to use this image of a quadcopter as an example.
 					</p>
 					<span class="imagelistnumber">1. Brushless Motor</span>
 					<p>
-						<span class="highlight"> Quadcopters usually use small, brushless motors for their propellers. </span>
+						Quadcopters usually use small brushless motors for their propellers.  These motors are popular for use in planes and copters
+						because they have no moving parts, so they are resistant to failure.  However, because of this, they
+						require a speed control circuit to create the electric pulses required to make them move.  The upside, though, is that
+						the speed control has very fine-grain control over the the motor, allowing propeller speed to be precisely controlled. 
 					</p>
 					<span class="imagelistnumber">2. Battery</span>
 					<p>
@@ -89,14 +92,29 @@
 					
 					<span class="imagelistnumber">3. Prop Saver</span>
 					<p>
+						When drones crash, usually the propellers take the brunt of the impact.  While some drones use plastic guards to surround
+						their propellers, this one uses a rubber band to attack the prop to the motor.  This band is called a prop saver, and allow sht peop to turn and flex in
+						a crash.
 					</p>
 					
 					<span class="imagelistnumber">4. Controller</span>
 					<p>
+						Drones require a controller circuit to control their flight.  This one includes the bar minimum for flight, an 
+						accelerometer and a gyroscope.  Other drones use barometric pressure sensors, compasses, and even GPS sensors to intelligently
+						control their position.
+					</p>
+					
+					<p>
+						There are a variety of drone CPUs in use today.  They range from tiny 8-bit AVR (Arduino) microcontrollers, to full-blown
+						Raspberry Pi-like embedded Linux computers.  This particular board uses a moderately powerful 32-bit ARM processor.
 					</p>
 					
 					<span class="imagelistnumber">5. R/C Receiver</span>
 					<p>
+						Since this is a teleoperated drone, it uses a microwave R/C receiver to receive commands from its driver.  Since this receiver 
+						is designed for planes, not drones, it outputs PWM (Pulse Width Modulation) signals, which are meant for driving servos.  The
+						controller board reads these signals and steers the drone using them.  Newer receivers use a protocol called PPM (Pulse 
+						Position Modulation), which lets the receiver transmit many control inputs at once to the control board using a single set of wires.
 					</p>
 				</p>
       </article>
@@ -115,7 +133,7 @@
         </p> 
 				<div class="intextimage-right">
 						
-					<img src="drone-control-loop.svg" width="600" height="400" alt="Drone Control Loop">
+					<img src="images/drone-control-loop.svg" width="600" height="400" alt="Drone Control Loop">
 					<br>
 					<span class="imagecaption">Drone Control Loop <a href="sources.html#dronecontrolloop-imagecredit">(3)</a></span>
 				</div>					
