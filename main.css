@@ -36,11 +36,6 @@ a {
   font-family:Arial, sans-serif;
 }
 
-ul>li {
- display: inline;
- padding-right:30px; 
-}
-
 footer {
   width: 20%;
   margin-left:auto;
@@ -64,8 +59,18 @@ ul.nav {
  float:right;
 }
 
+ul.nav>li {
+ display: inline;
+ padding-right:30px; 
+}
+
 ul.bottomnav {
   background-color: transparent;
+}
+
+ul.bottomnav>li {
+ display: inline;
+ padding-right:30px; 
 }
 
 ul.nav>li>a {
